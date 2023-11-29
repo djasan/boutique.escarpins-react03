@@ -1,0 +1,59 @@
+/* Reset des marges et des paddings pour assurer une mise en page cohérente */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style général pour la page */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+ 
+  /* Style pour l'en-tête */
+  header {
+    background-color: #d60e0efd;
+    color: #ffffffb1;
+    padding:20px;
+    text-align: center;
+   
+  }
+  
+  /* Style pour le titre */
+  h1 {
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  
+  /* Style pour la section principale */
+  main {
+    padding: 0px;
+  }
+  
+  /* Style pour la galerie d'articles */
+  .Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style pour chaque article */
+  .Gallery {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e05215f1;
+    border: 1px solid #242222dc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style pour le pied de page (footer) */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

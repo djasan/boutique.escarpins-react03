@@ -1,0 +1,34 @@
+/* Menus.css */
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2c0404;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .MenuTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .MenuItems {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .MenuItems div {
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .MenuItems div:hover {
+    color: #e44d26;
+  }
+  
+  /* Ajoutez d'autres styles au besoin */
+  
+  
